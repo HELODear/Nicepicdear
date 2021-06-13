@@ -1,0 +1,15 @@
+---
+application:
+  name: "nicepicdear"
+  project: "project47"
+  organization: "QoveryCommunity"
+databases:
+- type: "MONGODB"
+  name: "limau"
+  version: "4.4"
+routers:
+- name: "main-nicepicdear"
+  routes:
+  - application_name: "nicepicdear"
+    paths:
+    - "/*"
