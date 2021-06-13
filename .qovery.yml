@@ -1,0 +1,11 @@
+---
+application:
+  name: "nicepicdear"
+  project: "downarea1"
+  organization: "QoveryCommunity"
+routers:
+- name: "main-nicepicdear"
+  routes:
+  - application_name: "nicepicdear"
+    paths:
+    - "/*"
